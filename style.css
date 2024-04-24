@@ -1,0 +1,274 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: sans-serif;
+    
+    
+    padding: 0;
+    height: 100%; 
+    position: relative;
+    top: 0px;
+    bottom: 200px;
+    left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.body-home{
+    background-image: url(images/vegetables%202.jpeg);
+   background-position:center;
+   background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+    
+       
+}
+.body-meals{
+    background-image: url(images/background%20image%206.jpg);
+   background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.body-desserts{
+    background-image: url(images/dessert%20cover%20page.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: cadetblue;
+    
+}
+.body-drinks{
+    background-image: url(images/drinks2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.body-starters{
+    background-image: url(images/starters%20image.jpg);
+    background-image: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    background-color: #2196f3;
+    width:100%;
+    height: 50px;
+    top : 0;
+
+    
+    position: fixed;
+    overflow: hidden;
+    text-align:center;
+}
+.header i{
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: white;
+        
+}
+.header img{
+    width: 200px;
+    padding-top: 14px;
+    padding-right: 25px;
+}
+
+#home-logo-img{
+    width: 500px;
+    height: 500px;
+    display: block ;
+    margin : auto;
+    padding: 400px 10px 10px 10px;
+    object-position: top;
+    object-position: center;
+    position: relative;
+    bottom:600px;
+    object-position: center;
+    max-height: inherit;
+    bottom: -190px;
+        
+    
+}
+#home-logo-text{
+    width: auto
+    display: block;
+    margin: auto;
+    padding:10px;
+    text-align: center;
+    position: relative;
+    top: 750px;
+    left: 500px;
+    
+}
+
+.home-menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid white;
+    
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 88%;
+      
+}
+#meals{
+    padding-top: 50px;
+}
+.meals-list a{
+    text-decoration: none;
+    
+}
+.meals-list-item{
+ border: 5px  solid black; 
+ margin: 14px;
+}
+.meals-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+.meals-list-item i{
+    float: right;
+    color: #1a1a1a;
+    padding-right: 20px;
+}
+.meals-list-item p{
+ font-size: 15px;
+ font-style: italic;
+ color:#4d4d4d;
+ margin-top: 7px;
+ padding left: 10px;
+}
+
+#recipe{
+    padding-top: 50px;
+}
+
+.recipe-details img{
+    width: 100%;
+}
+.recipe-details h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid#1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+.recipe-details h2{
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.recipe-details-info{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.recipe-details-info p{
+    font-size: 13px;
+    display: inline-block;
+}
+.recipe-details-ingredients label{
+    line-height: 25px;
+    margin-left: 10px;
+}
+.recipe-details-steps{
+    padding-top: 20px;
+}
+.recipe-details-steps ol{
+    padding-left: 28px;
+    
+}
+
+@media only screen and(min-width 600px;)
+    #meals{
+    width:80px;
+   margin: auto;
+}
+@media only screen and (min-width 1000px)}
+
+.food-details-info p{
+   font-size: 20px;
+    display: inline-block;   
+}
+
+#price-tag {
+  display: block;
+  border: 2px solid rgb(34,34,33);
+  border-radius: 1px;
+    background-color: lightcyan;
+    padding: 35px;
+    width: 20%;
+    margin-left: 40%;
+    height: 35px;
+    
+}
+#price-tag h2{
+text-align: center;
+font-weight: 600;
+}
+
+.food-details h2{
+font-size: 20px;
+text-align: left;
+margin: 0;
+margin-left: 10px;
+}
+
+h2{
+display: block;
+color: green;
+ font-size: 1,5cm;
+margin-block-start:0.83em;
+margin-block-end: 0.83em;
+margin-inline-start:0px;
+margin-inline-end:0px;
+font-weight: bold;
+}
+.food-extras h2{
+color: red;
+}
+
+.extra-notes textarea{
+width: 100%;
+height: 25px;
+margin: 0 10px 0 10px;
+border: 1px solid #929292;
+border-radius: 10px;
+padding-top: 10px;
+}
+
+.button{
+ display: block;
+ width: 120px;
+ background-color: #126fbb;
+ text-decoration: none;
+ text-align: centre;
+color: white;  
+ font-weight: bold;
+ margin: 0 15px 0 40%;
+ padding: 10px;
+ border-radius:40px; 
+    
+    
+    
+}
